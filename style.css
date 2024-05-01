@@ -237,6 +237,11 @@ input[type="range"] {
   display: none;
 }
 
+.buttons{
+  position: fixed;
+  left: 980px;
+}
+
 @media (max-width: 1200px) {
   .left {
     position: absolute;
