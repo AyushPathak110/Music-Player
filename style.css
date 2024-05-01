@@ -237,9 +237,15 @@ input[type="range"] {
   display: none;
 }
 
-.buttons{
-  position: fixed;
-  left: 980px;
+.info{
+  width: 150px;
+  height: 30px;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+.time{
+  width: 200px;
 }
 
 @media (max-width: 1200px) {
