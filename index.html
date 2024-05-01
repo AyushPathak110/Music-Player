@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="header">
+                <h3>Song list</h3>
+                <div class="vol">
+                    <img id="v" src="/js/SVGs/volume.svg" alt="volume">
+                    <input type="range" name="volume" id="volume">
+                </div>
+                <img id="close" src="/js/SVGs/close.svg" alt="close">
+            </div>
+            <div class="list">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <img id="ham" src="/js/SVGs/ham.svg" alt="menu">
+            <div class="playlist">
+                <h2>Playlists</h2>
+                <div class="container">
+                </div>
+                <div class="player">
+                    <div id="st"><video id="vdo" src="/Images and videos/music.mp4" muted loop></video></div>
+                    <div class="info mob">Play Music</div>
+                    <div class="buttons mob">
+                        <img id="prev" src="/js/SVGs/previous.svg" alt="previous">
+                        <img id="play" src="/js/SVGs/play.svg" alt="play">
+                        <img id="next" src="/js/SVGs/next.svg" alt="next">
+                    </div>
+                    <div class="time mob">00:00 / 00:00</div>
+                </div>
+                <div class="line">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
